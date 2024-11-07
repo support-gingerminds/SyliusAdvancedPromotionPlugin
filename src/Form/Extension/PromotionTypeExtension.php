@@ -24,10 +24,7 @@ final class PromotionTypeExtension extends AbstractTypeExtension
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('afterTax', CheckboxType::class, [
-                'required' => false,
-                'label' => 'monsieurbiz_sylius_advanced_promotion.promotion.applied_after_tax',
-            ])
+
         ;
     }
 
